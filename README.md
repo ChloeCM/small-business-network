@@ -15,11 +15,12 @@ Routers are connected using serial DCE/DTE links with **static routing**, provid
 
 ## 🧩 Network Topology
 
-| Site | Subnet | Default Gateway | DHCP Range | Devices | Max. Number of User |
-|------|---------|----------|-------------|----------|
+| Site | Subnet | Default Gateway | DHCP Range | Devices | Max Users |
+|------|---------|----------------|-------------|----------|------------|
 | **Kilkenny (Head Office)** | 192.168.10.0/26 | 192.168.10.1 | 192.168.10.10–59 | 1 Router, 1 Switch, 2 PCs, 1 Printer, 1 Server | 50 |
 | **Waterford (Store B)** | 192.168.10.64/26 | 192.168.10.65 | 192.168.10.74–103 | 1 Router, 1 Switch, 2 PCs, 1 Printer, 1 Server | 30 |
 | **Wexford (Store C)** | 192.168.10.128/26 | 192.168.10.129 | 192.168.10.138–172 | 1 Router, 1 Switch, 2 PCs, 1 Printer, 1 Server | 35 |
+
 
 ---
 
